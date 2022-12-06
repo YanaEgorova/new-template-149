@@ -188,8 +188,8 @@ body.error-active .error__overlay {
   text-transform: uppercase;
   border: .2rem solid var(--sub-text-color);
   font-family: var(--title-font);
-  background-image: linear-gradient(to right, #f4d05f, #f3c851, #f3c042, #f2b832, #f2b020);
-  color: var(--sub-text-color);
+  background-image: linear-gradient(to right, var(--second-brand-color), var(--first-brand-color));
+  color: var(--main-text-color);
   border-radius: 1rem;
 } 
 
