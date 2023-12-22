@@ -64,7 +64,7 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type=number] {
+input[type="number"] {
   -moz-appearance: textfield;
 }
 .wrapper {
@@ -85,8 +85,8 @@ input[type=number] {
   top: 0;
   right: 0;
   width: 100vw;
-  height: 100vh;  
-  background-color: rgb(0, 0, 0, .8);
+  height: 100vh;
+  background-color: rgb(0, 0, 0, 0.8);
   z-index: 99999999999999;
   display: flex;
   justify-content: center;
@@ -149,7 +149,7 @@ body.error-active .error__overlay {
   position: relative;
 }
 .logo {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: var(--title-font);
 }
 
@@ -166,14 +166,14 @@ body.error-active .error__overlay {
   font-family: var(--title-font);
 }
 .text {
-   font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 .img {
-    width: 100%;
-    display: block;
-    max-width: 35rem;
-    margin-left: auto;
-    margin-right: auto;
+  width: 100%;
+  display: block;
+  max-width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 .btn {
   cursor: pointer;
@@ -182,16 +182,20 @@ body.error-active .error__overlay {
   position: relative;
   text-decoration: none;
   width: fit-content;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   padding: 1.5rem 4rem 1.3rem;
   display: inline-block;
   text-transform: uppercase;
-  border: .2rem solid var(--sub-text-color);
+  border: 0.2rem solid var(--sub-text-color);
   font-family: var(--title-font);
-  background-image: linear-gradient(to right, var(--second-brand-color), var(--first-brand-color));
+  background-image: linear-gradient(
+    to right,
+    var(--second-brand-color),
+    var(--first-brand-color)
+  );
   color: var(--main-text-color);
   border-radius: 1rem;
-} 
+}
 
 .bold {
   text-decoration: underline;
@@ -201,21 +205,16 @@ body.error-active .error__overlay {
   .container {
     padding: 0 2rem;
   }
- .sub-title {
-  font-size: 3rem;
- }
+  .sub-title {
+    font-size: 3rem;
+  }
 
   .btn:hover {
     border-color: var(--third-brand-color);
     color: var(--third-brand-color);
- }
+  }
 
- .title {
-  font-size: 6rem;
+  .title {
+    font-size: 6rem;
+  }
 }
-
-
-}
-
-
-
